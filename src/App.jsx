@@ -9,7 +9,7 @@ import PageNotFound from "./pages/PageNotFound/PageNotFound";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<PageIndex />} />
           <Route path="/product" element={<PageProduct product={product} />} />
