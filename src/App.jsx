@@ -9,13 +9,13 @@ import PageNotFound from "./pages/PageNotFound/PageNotFound";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<PageIndex />} />
           <Route path="/product" element={<PageProduct product={product} />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
-      </BrowserRouter>      
+      </HashRouter>      
     </div>
   );
 }
