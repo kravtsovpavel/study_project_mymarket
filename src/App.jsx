@@ -1,5 +1,5 @@
 import React from"react";
-import { HashRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 import { product } from './mocks/product';
 
 import PageIndex from './pages/PageIndex/PageIndex';
@@ -9,13 +9,13 @@ import PageNotFound from "./pages/PageNotFound/PageNotFound";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<PageIndex />} />
           <Route path="/product" element={<PageProduct product={product} />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
-      </HashRouter>      
+      </BrowserRouter>      
     </div>
   );
 }
