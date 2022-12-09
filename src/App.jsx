@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="https://kravtsovpavel.github.io/study_project_mymarket/" element={<PageIndex />} />
-          <Route path="https://kravtsovpavel.github.io/study_project_mymarket/product" element={<PageProduct product={product} />} />
-          <Route path="https://kravtsovpavel.github.io/study_project_mymarket/*" element={<PageNotFound />} />
+          <Route path="/" element={<PageIndex />} />
+          <Route path="/product" element={<PageProduct product={product} />} />
+          <Route path="/*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>      
     </div>
