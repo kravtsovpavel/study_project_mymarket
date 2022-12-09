@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/study_project_mymarket/static/css/main.9d877487.css",
-    "main.js": "/study_project_mymarket/static/js/main.f6bfeea6.js",
+    "main.js": "/study_project_mymarket/static/js/main.a0d03963.js",
     "static/media/cart.svg": "/study_project_mymarket/static/media/cart.7f3d6cc6a51c629546c7.svg",
     "index.html": "/study_project_mymarket/index.html",
     "main.9d877487.css.map": "/study_project_mymarket/static/css/main.9d877487.css.map",
-    "main.f6bfeea6.js.map": "/study_project_mymarket/static/js/main.f6bfeea6.js.map"
+    "main.a0d03963.js.map": "/study_project_mymarket/static/js/main.a0d03963.js.map"
   },
   "entrypoints": [
     "static/css/main.9d877487.css",
-    "static/js/main.f6bfeea6.js"
+    "static/js/main.a0d03963.js"
   ]
 }
