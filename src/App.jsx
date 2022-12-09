@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PageIndex />} />
           <Route path="/product" element={<PageProduct product={product} />} />
-          <Route path="/*" element={<PageNotFound />} />
+          {/* <Route path="/*" element={<PageNotFound />} /> */}
         </Routes>
       </BrowserRouter>      
     </div>
