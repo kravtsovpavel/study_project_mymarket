@@ -1,0 +1,143 @@
+.add-review-form {
+    box-sizing: border-box;
+    max-width: 880px;
+    padding-left: 170px;
+}
+
+.add-review-form__heading {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 57px;
+    margin-bottom: 15px;
+}
+
+.add-review-form__row {
+    display: flex;
+    max-width: 880px;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.form-review__name-wrapper {
+    position: relative;
+}
+
+.add-review-form__name {
+    width: 453px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #888888;
+}
+
+.form-review__error {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 25px;
+    background-color: #DA4A0C;
+    font-size: 12px;
+    color: white;
+    padding: 2px 4px;
+}
+
+.form-review__score-wrapper {
+    position: relative;
+}
+
+.add-review-form__score {
+    width: 133px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #888888;
+}
+
+.add-review-form__review {
+    margin-top: 30px;
+    width: 668px;
+    height: 160px;
+    resize: none;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #888888;
+}
+
+.add-review-form__name:hover, 
+.add-review-form__score:hover,
+.add-review-form__review:hover {
+    border: 1px solid black;
+}
+
+.add-review-form__btn {
+    margin-bottom: 103px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background-color: #F36223;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-review-form__btn:hover {
+    background-color: #DA4A0C;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.add-review-form__btn:active {
+    background-color:  #A93A09;
+}
+
+@media (max-width:1499px) {
+    .add-review-form {
+        box-sizing: border-box;
+        max-width: 594px;
+        padding-left: 0;
+    }
+
+    .add-review-form__name {
+        width: 339px;
+    }
+
+    .add-review-form__score {
+        width: 131px;
+    }
+
+    .add-review-form__review {
+        width: 552px;
+    }
+}
+
+@media (max-width:1023px) {
+    .add-review-form {
+        box-sizing: border-box;
+        max-width: 315px;
+    }
+
+    .add-review-form__row {
+        display: flex;
+        max-width: 315px;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .add-review-form__name {
+        width: 315px;
+    }
+
+    .add-review-form__score {
+        width: 315px;
+    }
+
+    .add-review-form__review {
+        width: 315px;
+    }
+}

@@ -1,0 +1,32 @@
+.phonecolours {
+    padding-bottom: 30px;
+}
+
+.phonecolours__title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.phonecolours__photos {
+    display: flex;
+    padding: 0px;
+    gap: 10px;
+}
+
+@media (max-width:1023px) {
+    .phonecolours__photos {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 1;
+        /* align-items: flex-start; */
+        /* flex-grow: 1;
+        width: 60px;
+        height: 60px; */
+        gap: 8px
+    }
+
+    .phonecolours__img {
+        height: 50px;
+    }
+}

@@ -1,0 +1,39 @@
+.ads-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+
+.ads-area__title {
+    color: #888888;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ads-area__iframes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.iframes__iframe {
+    width: 420px;
+    height: 300px;
+    border: 1px dashed #ccc;
+}
+
+@media (max-width:1499px) {
+    .iframes__iframe {
+        width: 360px;
+    }
+}
+
+@media (max-width:1023px) {
+    .ads-area {
+        display: none;
+    }
+}

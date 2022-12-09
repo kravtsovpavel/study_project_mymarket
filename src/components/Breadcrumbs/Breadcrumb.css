@@ -1,0 +1,8 @@
+.nav__article::after {
+    content: ' > ';
+    color:black
+}
+
+.nav__article:last-child:after {
+    content: '';
+}

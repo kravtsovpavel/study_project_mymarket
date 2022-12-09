@@ -1,0 +1,34 @@
+.features {
+    margin-bottom: 30px;
+}
+
+.features__title {
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.features__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.features__item {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 10px;
+}
+
+.marker {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #888888;
+}
+
+.features__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

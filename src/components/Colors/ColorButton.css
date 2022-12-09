@@ -1,0 +1,53 @@
+.phonecolours__photos-card {
+    display: flex;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.phonecolours__photos-card:active {
+    border: 2px solid #A93A09;
+}
+
+.phonecolours__photos-card_selected {
+    border: 2px solid #F36223;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+}
+
+.phonecolours__photos-card:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.phonecolours__photos-card_selected:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.phonecolours__img {
+    height: 60px;
+} 
+
+@media (max-width:1023px) {
+    .phonecolours__photos-card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60px;
+        height: 60px;
+    }
+
+    .phonecolours__img {
+        height: 50px;
+    }
+}

@@ -1,0 +1,25 @@
+.phonememory__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.phonememory__button {
+    background-color: #FFFFFF;
+}
+
+.phonememory__button:active {
+    border: 2px solid #A93A09;
+}
+
+.phonememory__button_selected {
+    border: 2px solid #F36223;
+    background-color: #FFFFFF;
+}
+
+.phonememory__button:hover, .phonememory__button_selected:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
